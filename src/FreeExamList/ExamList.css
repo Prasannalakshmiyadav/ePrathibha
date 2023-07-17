@@ -1,0 +1,55 @@
+/* ExamList.css . */
+* {
+}
+.container {
+  position: absolute;
+  top: 100px;
+  padding: 70px;
+}
+.card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  border: 1px solid blue;
+  border-radius: 4px;
+  padding: 10px;
+
+  /* margin-bottom: 10px; */
+  height: auto;
+  /* margin-top: 60px; */
+  margin-left: 20px;
+  margin-right: 40px;
+  background-color: antiquewhite;
+}
+h1 {
+  position: absolute;
+  top: -100px;
+  left: 20px;
+}
+questionheaders {
+  margin-top: 20px;
+}
+.card h2 {
+  margin: 0;
+  margin-top: auto;
+}
+
+.card p {
+  margin: 5px 0;
+}
+
+button {
+  margin-top: 10px;
+  background-color: #67f541;
+  cursor: pointer;
+}
+
+/* .container {
+  display: grid;
+  grid-template-columns: repeat(
+    3,
+    1fr
+  );               
+  gap: 20px;              
+}
+*/
